@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Qipeng Qian — Home</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ℚ</text></svg>">
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Qipeng Qian</a>
+    <div class="mobile-nav">
+      <button class="btn" onclick="toggleNav()">Toggle Menu</button>
+      <button class="btn" onclick="window.print()">Print / Save PDF</button>
+    </div>
+  </div>
+</header>
+<main class="wrap layout">
+  
+      <aside class="sidebar">
+        <div class="name">Qipeng Qian</div>
+        <div class="role">Ph.D. Candidate, Applied Mathematics<br/>University of Arizona</div>
+        <div class="contact"><div>Email: <a href="mailto:qipeng_qian@126.com">qipeng_qian@126.com</a></div><div>Based in: Tucson, AZ & Hangzhou, China</div></div>
+        
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="research.html" class="">Research</a>
+        <a href="publications.html" class="">Publications</a>
+        <a href="teaching.html" class="">Teaching</a>
+        <a href="cv.html" class="">CV</a>
+      </nav>
+    
+        <div class="badges">
+          <span class="badge">Quantum Info</span>
+          <span class="badge">Covariant Estimation</span>
+          <span class="badge">State Discrimination</span>
+          <span class="badge">Graph ML</span>
+        </div>
+      </aside>
+    
+  <section class="content">
+
+<h1>About</h1>
+<div class="card">
+  <p>
+    I study fundamental and algorithmic limits in quantum information. My current interests include
+    covariant measurement strategies for phase estimation, the limits and opportunities of
+    post‑selection in quantum state discrimination, and covert sensing/communication via quickest
+    quantum change‑point decoding on bosonic channels. On the applied side, I build
+    graph‑structured learning systems, including a wavelet‑inspired multiscale GCRN for traffic forecasting.
+  </p>
+</div>
+
+<h2>News</h2>
+<ul class="list">
+  <li><strong>2025‑07:</strong> Preprint “The effect of partial post‑selection on quantum discrimination” posted to arXiv.</li>
+  <li><strong>2024‑09:</strong> “Wigner non‑negative states that verify the Wigner entropy conjecture” appeared in PRA 110, 012228.</li>
+</ul>
+
+<h2>Interests</h2>
+<ul class="list">
+  <li>Quantum information & sensing; Bayesian estimation; covariant measurements</li>
+  <li>Quantum state discrimination; post‑selection; QCPD</li>
+  <li>Graph machine learning; wavelets; diffusion models</li>
+</ul>
+
+  </section>
+</main>
+<footer class="wrap footer">
+  <div>© <span id="y"></span> Qipeng Qian</div>
+  <div style="float:right">Last updated: August 24, 2025</div>
+</footer>
+<script src="assets/script.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
